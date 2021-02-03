@@ -16,5 +16,6 @@ clean:
 
 .PHONY: keys
 keys:
-	rm -Rf ./keys/*
-	ssh-keygen -t rsa -N "" -f ./keys/kubernetes
+	mkdir -p ./resources/keys
+	rm -Rf ./resources/keys/*
+	ssh-keygen -t rsa -N "" -f ./resources/keys/kubernetes

@@ -1,5 +1,4 @@
 #TODO
-  * configure terraform to communicate to the primary server
   * Need to create an FTP server to serve images locally
   * fix podman to use host user's git credentials
 
@@ -25,3 +24,9 @@ perform development efforts.
 ###known issues
 The ability to commit code does not exist within the container. Code should be commit
 while on the host system only.
+
+##source
+The source files for this project are stored in source. Currently the terraform.state
+file will also be located in-tree with the source files, but not much that I am aware
+of which can prevent this. The source files themselves have been scavenged from a prior
+attempt at this... I'm hoping that this will be a fine place to start.
