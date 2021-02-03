@@ -14,7 +14,7 @@ provider "libvirt" {
 
 resource "libvirt_ignition" "ignition" {
   name = "example.ign"
-  content = "ignition/example.ign"
+  content = "resources/ignition/example.ign"
 }
 
 module "primary_vm" {
